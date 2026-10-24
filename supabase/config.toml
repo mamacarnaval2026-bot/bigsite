@@ -1,0 +1,6 @@
+[functions.create-checkout]
+# A função valida a sessão via auth.getUser() internamente.
+verify_jwt = false
+
+[functions.mercadopago-webhook]
+verify_jwt = false
